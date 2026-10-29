@@ -1,0 +1,3 @@
+# Cached Mel-spectrogram .npz files are generated here during training.
+# Run: python train.py  (or python quickstart.py)
+# to auto-generate: genre_spectrograms.npz

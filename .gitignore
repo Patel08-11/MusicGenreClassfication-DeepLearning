@@ -1,0 +1,86 @@
+# =============================================
+# Python
+# =============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.Python
+env/
+venv/
+.venv/
+ENV/
+pip-wheel-metadata/
+
+# =============================================
+# PyTorch Model Weights (too large for GitHub)
+# =============================================
+saved_models/*
+!saved_models/.gitkeep
+*.pth
+*.pt
+*.ckpt
+
+# =============================================
+# Dataset & Raw Audio (too large for GitHub)
+# =============================================
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/uploads/
+*.npz
+*.wav
+*.mp3
+*.ogg
+*.flac
+
+# =============================================
+# Outputs & Generated Files
+# =============================================
+outputs/*
+!outputs/.gitkeep
+
+# =============================================
+# Jupyter Notebooks Checkpoints
+# =============================================
+.ipynb_checkpoints/
+*.ipynb
+
+# =============================================
+# Faculty & Personal Demo Files
+# =============================================
+FACULTY_DEMO.md
+
+# =============================================
+# OS & Editor Files
+# =============================================
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# =============================================
+# Logs & Temp Files
+# =============================================
+*.log
+*.tmp
+*.bak
+logs/
+tmp/
+
+# =============================================
+# Environment Variables
+# =============================================
+.env
+.env.*
+secrets.py

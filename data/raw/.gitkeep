@@ -1,0 +1,8 @@
+# Place your raw audio files here organized by genre folder
+# Example structure:
+#   data/raw/blues/blues.00000.wav
+#   data/raw/classical/classical.00000.wav
+#   ...
+#
+# Download the GTZAN dataset using:
+#   python dataset/download_dataset.py

@@ -1,0 +1,3 @@
+# Trained PyTorch model weights (.pth files) are saved here.
+# Run: python train.py  to generate best_model.pth
+# Not tracked by git due to large file sizes (6–20 MB).
